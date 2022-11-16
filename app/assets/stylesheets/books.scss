@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+  width: 764px;
+}
+
+table {
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.table-head {
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.table-conteiner {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.th {
+  padding-bottom: 5px;
+  display: table-cell;
+  font-weight: bold;
+  text-align: center;
+}
+
+.head-title {
+  width: 192px;
+  height: 24px;
+}
+
+.head-body {
+  width: 400px;
+  height: 24px;
+}
+
+.head {
+  width: 145px;
+  height: 24px;
+}
+
+.table-body {
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table-box {
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 26px;
+}
+
+.book-title {
+  width: 192px;
+}
+
+.book-body {
+  width: 400px;
+}
+
+.show {
+  width: 46px;
+}
+
+.edit {
+  width: 35px;
+}
+
+.destroy {
+  width: 60px;
+}
+
+.div {
+  width: 100%;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.new-book {
+  display: block;
+  margin-top: 0em;
+}
+
+.title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.body {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.action {
+  display: block;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.showbox {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.link-box {
+  cursor: pointer;
+}
+
+.flash {
+  color: green;
+}
+
+div.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.error-box {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+.error-ul .error-li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.error-ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
